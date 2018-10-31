@@ -13,10 +13,12 @@ The holiday reservation system is able to carry out the following use cases:
 - Departure city
 - Destination city
 - Number of travellers
-- The following information will also be generated:
+
+The following information will also be generated:
 - Ticket(s) for a flight departing anytime on the date of departure from an airport in the departure city and returning anytime on the return date. The landing schedule and departure schedule at the destination city airport can be any appropriate data.
 - A rental car for collecting at the destination city airport one hour after the landing time at the destination city airport on the departure date and for returning one hour before the departure time on the return date.
 - A hotel room in the destination city for check-in on the departure date and for check-out on the return date.
+
 Note:
 - The details are to be represented as simple string text to be stored in ItineraryItem.activity, e.g.,:
 - Board flight XXX from ABC airport at 8:00 AM, 3 September 2018.
